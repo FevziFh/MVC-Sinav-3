@@ -1,0 +1,17 @@
+﻿@using Sinav.UI.Models.VMs.AppUserVMs;
+@model LoginVM
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h3>Admin Login Page</h3>
+<form asp-action="Login" method="post">
+    <label asp-for="UserName"></label>
+    <input type="text" asp-for="UserName" />
+    <br />
+    <label asp-for="Password"></label>
+    <input type="password" asp-for="Password" />
+    <br />
+    <input type="submit" value="Login" />
+</form>
+
