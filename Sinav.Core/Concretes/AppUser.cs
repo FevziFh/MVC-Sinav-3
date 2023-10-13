@@ -11,5 +11,6 @@ namespace Sinav.Core.Concretes
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public virtual List<Article> Articles { get; set; }
     }
 }

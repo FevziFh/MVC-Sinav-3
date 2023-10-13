@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Sinav.Service.DTOs.AppUserDTOs;
-using Sinav.Service.Services.İnterfaces;
+using Sinav.Service.Services.Interfaces;
 using Sinav.UI.Models.VMs.AppUserVMs;
 
 namespace Sinav.UI.Controllers

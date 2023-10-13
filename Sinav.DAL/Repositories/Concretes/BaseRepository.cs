@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Sinav.DAL.Repositories.Concretes
 {
-    internal class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
+    public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
     {
         private readonly AppDbContext dbContext;
         protected DbSet<T> table;
